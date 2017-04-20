@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.item_list h2,#SHOPPING_GUIDE h2{
+	background: transparent;
+}
+
+.item_list li{
+	width: 50%;
+}
+
+.guide_box{
+	width:100%;
+}
+
+#PRODUCTS_BOX{
+	padding: 15px;
+}
+
+#PRODUCTS_NAME{
+	padding:0;
+}
+#PRODUCTS_ID{
+	display:block;
+	padding:10px 0;
+}
+
+#MAIN_VIEW img{
+	border-bottom:3px solid #fff;
+}
+#PICT_LIST{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction:row;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
+#PICT_LIST li{
+	width:20%;
+}
+#PICT_LIST li img{
+	border:2px solid #fff;
+}
+
+#CART_BOX{
+	border:none;
+}
+
+#FORM_WRAPPER{
+	width:100%;
+}
+#BTN_CART{
+	width:100%;
+	text-align: center;
+}
+#BTN_CART input{
+	margin:0 auto 20px;
+	float:none;
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.item_list li{
+	width:33.3%;
+}
+
+.guide_box{
+	width:50%;
+}
+
+#PRODUCTS_BOX{
+	padding: 40px 5%;
+}
+
+#PRODUCTS_ID{
+	float:right;
+}
+
+#MAIN_VIEW{
+	width:72%;
+	float:left;
+}
+#MAIN_VIEW img{
+	border-right:1px solid #fff;
+}
+#PICT_LIST{
+	width:28%;
+	float:right;
+}
+#PICT_LIST li{
+	width:48%;
+	float:left;
+}
+
+#FORM_WRAPPER{
+	float:left;
+	width:55%;
+}
+#BTN_CART{
+	width:225px;
+	float:right;
+	margin-top:24px;
+}
+
+@media(max-width:952px){
+	#FORM_WRAPPER{
+		float: none;
+		width:100%;
+	}
+	#BTN_CART{
+		clear: both;
+		float: none;
+		margin:0 auto;
+	}
+	#BTN_CART input{
+		margin:0 auto;
+		padding:10px 0 20px;
+	}
+}
